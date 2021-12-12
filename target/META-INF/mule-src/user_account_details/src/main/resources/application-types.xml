@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
+  <types:catalog>
+    <types:type name="sample" format="json">
+      <types:shape format="weave" example="examples/sg.json"><![CDATA[%dw 2.0
+
+type sample = {|
+  accountname: String, 
+  accountnumber: String, 
+  phone: String, 
+  billingcity: String, 
+  billingstate: String, 
+  postalcode: String
+|} {"example": "{\\\"accountname\\\":\\\"jayanth\\\",\\\"accountnumber\\\":\\\"354236\\\",\\\"phone\\\":\\\"54412212\\\",\\\"billingcity\\\":\\\"trichy\\\",\\\"billingstate\\\":\\\"tn\\\",\\\"postalcode\\\":\\\"56543\\\"}"}
+
+]]></types:shape>
+    </types:type>
+  </types:catalog>
+</types:mule>
