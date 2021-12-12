@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>c64801ba-2c1a-4d1d-a3b3-c404e2ced651</groupId>
+  <artifactId>get_account_details</artifactId>
+  <version>1.0.1</version>
+  <name>get_account_details</name>
+  <properties>
+    <classifier>raml</classifier>
+    <main>get_account_details.raml</main>
+    <originalFormatVersion>1.0</originalFormatVersion>
+    <apiVersion>v1</apiVersion>
+    <projectId>cb66c23d-a041-4559-84d8-d5bdcd0adf39</projectId>
+    <branchId>master</branchId>
+    <commitId>f5683867bee455782746355514a26050f5060380</commitId>
+    <keywords/>
+    <type>rest-api</type>
+    <mainFile>get_account_details.raml</mainFile>
+  </properties>
+  <repositories>
+    <repository>
+      <id>anypoint-exchange</id>
+      <url>https://maven.anypoint.mulesoft.com/api/v3/maven</url>
+    </repository>
+  </repositories>
+</project>
